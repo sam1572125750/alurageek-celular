@@ -1,0 +1,53 @@
+{
+  "videos": [
+    {
+      "titulo": "sansung",
+      "precio": "151 soles",
+      "url": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/3SA6XLOJ7NFKNPDASUZ33VMGQ4.jpg",
+      "imagen": "151",
+      "id": 3
+    },
+    {
+      "titulo": "Nokia 13hc",
+      "precio": "950 soles",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Android_phones.jpg/250px-Android_phones.jpg",
+      "id": 6
+    },
+    {
+      "titulo": "tablet 5i 14ram",
+      "precio": "1800 soles",
+      "url": "https://dia8publicidad.com/wp-content/uploads/2020/05/Imagen-redes-01.jpg",
+      "id": 8
+    },
+    {
+      "titulo": "Toyota raptor",
+      "precio": "5000 soles",
+      "url": "https://webescuela.com/wp-content/uploads/2018/12/redes-sociales-mas-utilizadas.jpg",
+      "id": 9
+    },
+    {
+      "titulo": "NIZAN 15",
+      "precio": "905 soles",
+      "url": "https://m.media-amazon.com/images/I/61HRLLhjeXL.jpg",
+      "id": 10
+    },
+    {
+      "titulo": "YANSUMI ",
+      "precio": "3020 soles",
+      "url": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacPE/4100220_01/width=170,height=170,quality=70,format=webp,fit=pad",
+      "id": 11
+    },
+    {
+      "titulo": "XIOMI 13C",
+      "precio": "2500 soles",
+      "url": "https://plazavea.vteximg.com.br/arquivos/ids/11883511-512-512/imageUrl_1.jpg",
+      "id": 12
+    },
+    {
+      "titulo": "REDMI 10",
+      "precio": "1800 soles",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSboosFMrXZx432D_EIEHJY7elM6XR3XMiFX5JkizfFZyK3_lVjYnWJrBxKx1UblDdkKDA&usqp=CAU",
+      "id": 13
+    }
+  ]
+}

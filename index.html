@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos-formulario.css">
+    <link rel="stylesheet" href="./css/flexbox.css">
+    <title>AluraGeek</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="encabezado">
+          <h2>ALURAGEEK</h2>
+        </nav>
+
+    </header>
+
+    <div class="todo-contenido">
+       
+       <ul class="videos__container" alt="videos alura" data-lista>
+        
+       
+    </ul> 
+    <main class="container">
+
+        <form class="container__formulario" id="miFormulario" data-formulario>
+            <h2 class="formulario__titulo">¡Agregar Producto!</h3>
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="url">Imagen</label>
+                    <input name="url" class="campo__escrita" required
+                        placeholder="Inserte URL  de la imagen" id='url' data-url/>
+                </div>
+
+
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="titulo">Nombre</label>
+                    <input name="titulo" class="campo__escrita" required placeholder="Nombre del producto"
+                        id='titulo' data-titulo/>
+                </div>
+
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="imagem">Precio</label>
+                    <input name="imagem" class="campo__escrita" required placeholder="Precio del Producto"
+                        id='imagem'type="number" data-imagen/>
+                </div>
+
+                <div class="botones-for-tipos">
+                    <input class="formulario__boton" type="submit" />
+                    <input class="formulario__boton" type="button"  value="limpiar" onclick="limpiarFormulario()" />
+                </div>
+               
+        </form>
+
+    </main> 
+    </div>
+    <footer class="final">
+        <h3> ALURAGEEK</h3>
+        <h4>desarrollado por: Julinho Romero Sobrado</h4>
+        <h4>Alura Latam - 2024</h4>
+    </footer>
+    
+    <script>
+        function limpiarFormulario() {
+            document.getElementById("miFormulario").reset();
+        }
+    </script>
+    <script src="../js/crearVideo.js" type="module"></script>
+    <script src="../js/mostrarVideos.js" type="module"></script><!-- todo: siempre poner asi cuando exportamos -->
+    <script src="../js/filtrarVideos.js" type="module"></script>
+</body>
+
+</html>

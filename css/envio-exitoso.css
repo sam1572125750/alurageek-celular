@@ -1,0 +1,12 @@
+.inicio a img{
+    height: 50px;
+    position: absolute;
+    top: 50px;
+}
+.inicio a img:hover{
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 50%;
+    transform: scale(1.2);
+
+}
