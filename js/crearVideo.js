@@ -13,7 +13,7 @@ async function crearVideos(evento) {
     try {
         await conexionAPI.enviarVideos(titulo, precio,url);  //?aca borre imagen
 
-        window.location.href = "./pages/envio-concluido.html";
+        window.location.href = "../pages/envio-concluido.html";
     } catch (e) {
         alert(e);
     }
